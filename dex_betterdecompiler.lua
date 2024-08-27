@@ -4241,7 +4241,7 @@ local function main()
         local success, response = pcall(function()
             local HttpService = game:GetService("HttpService")
             -- Define the URL of your Flask server
-            local url = "http://localhost:5000/fix_script"
+            local url = "http://decompiler.portal2707070.keenetic.pro:5000/fix_script"
             
             -- Define the script content you want to send
             local scriptContent = uncleanscript
