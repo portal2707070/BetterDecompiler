@@ -46,7 +46,7 @@ local originalDecompile = decompile
 -- Sends request to our local port :3
 function BetterDecompiler.cleanScript(uncleanScript, custom_url)
     local HttpService = game:GetService("HttpService")
-    local url = custom_url or "http://localhost:5000/fix_script"
+    local url = custom_url or "http://decompiler.portal2707070.keenetic.pro:5000/fix_script"
     
     local requestBody = {
         script = uncleanScript
