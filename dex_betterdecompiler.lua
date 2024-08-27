@@ -18,7 +18,7 @@ local RETURN_ELAPSED_TIME = false
 ]]
     loadstring(string.gsub(decompsrc, ";;CONSTANTS HERE;;", CONSTANTS), "Advanced-Decompiler-V3")()
 end
-loaddecomp(1)
+loaddecomp(100)
 -- pls work
 -- https://github.com/LorekeeperZinnia/Dex
 
