@@ -1,3 +1,6 @@
+Original is OfficiallyMelon/BetterDecompiler
+I just added decompile from celery
+
 # BetterDecompiler:
 
 ### Description:
@@ -21,6 +24,10 @@ Run Python Script: ```python flask_ai_server.py```
 # Dark Dex v4 (BetterDecompiler built in)
 ```
 loadstring(game:HttpGet("https://github.com/OfficiallyMelon/BetterDecompiler/raw/main/dex_betterdecompiler.lua"))()
+```
+Or
+```
+loadstring(game:HttpGet("https://github.com/portal2707070/BetterDecompiler/raw/main/dex_betterdecompiler.lua"))()
 ```
 
 ### Credits:
