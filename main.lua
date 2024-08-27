@@ -34,7 +34,7 @@ local RETURN_ELAPSED_TIME = false
 ]]
     loadstring(string.gsub(decompsrc, ";;CONSTANTS HERE;;", CONSTANTS), "Advanced-Decompiler-V3")()
 end
-loaddecomp(100)
+loaddecomp(2)
 -- pls work
 
 
