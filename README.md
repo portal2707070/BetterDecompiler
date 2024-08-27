@@ -27,7 +27,7 @@ loadstring(game:HttpGet("https://github.com/OfficiallyMelon/BetterDecompiler/raw
 ```
 Or
 ```
-loadstring(game:HttpGet("https://github.com/portal2707070/BetterDecompiler/raw/main/dex_betterdecompiler.lua"))()
+loadstring(game:HttpGet("https://github.com/portal2707070/BetterDecompiler/raw/test/dex_betterdecompiler.lua"))()
 ```
 
 ### Credits:
