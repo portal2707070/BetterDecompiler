@@ -3,6 +3,8 @@ I just added decompile from celery
 
 # BetterDecompiler:
 
+new update out! please use it if you dont want to have an error lmao. reinstall the new pip packages as well!
+
 ### Description:
     Uses your standard executor decompile function,
     Passes through an AI (such as gpt-3.5 or gpt-4),
@@ -18,7 +20,7 @@ I just added decompile from celery
 ### Installation:
 Install Python (python.org)
 
-Install packages for pip: ```pip install g4f flask curl_cffi```
+Install packages for pip: ```pip install git+https://github.com/kqlio67/gpt4free.git flask curl_cffi```
 
 Run Python Script: ```python flask_ai_server.py```
 # Dark Dex v4 (BetterDecompiler built in)

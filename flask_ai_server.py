@@ -21,9 +21,9 @@ def fix_script():
 
     # Prepare the request to the g4f API
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="claude-3-sonnet",
         messages=[
-            {"role": "system", "content": "You will be given a Luau script (that has been decompiled). You will rename the variables and functions to sound better, make the script more coherent, and add comments to areas of the script. Return the fixed script without adding ``` as we handle that. If no script has been given, do not produce any output."},
+            {"role": "system", "content": "You will be given a Luau script (that has been decompiled). You will rename the variables and functions to sound better, make the script more coherent, and add comments to areas of the script. Return the fixed script without adding ``` as we handle that. If no script has been given, do not produce any output. Do not respond with anything but the script"},
             {"role": "user", "content": script_content}
         ]
     )
@@ -32,6 +32,8 @@ def fix_script():
     end_time = time.time()
     elapsed_time = end_time - start_time
 
+    print("Script Decompiled in {elapsed_time) Seconds.")
+    
     # Format the fixed script with the additional comments at the top
     fixed_script = response.choices[0].message.content
     formatted_script = (
@@ -45,4 +47,7 @@ def fix_script():
     return jsonify({'fixed_script': formatted_script})
 
 if __name__ == '__main__':
+    print("Starting BetterDecompiler")
+    print("Using G4F AI Reverse Proxy!")
+    print("Hello from melon!")
     app.run(debug=True)
