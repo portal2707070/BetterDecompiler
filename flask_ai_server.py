@@ -50,4 +50,4 @@ if __name__ == '__main__':
     print("Starting BetterDecompiler")
     print("Using G4F AI Reverse Proxy!")
     print("Hello from melon!")
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5000)
