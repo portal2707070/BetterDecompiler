@@ -15,7 +15,7 @@
 ]]
 -- fix
 -- celery decompile
-local decompsrc = game:HttpGet("https://raw.githubusercontent.com/w-a-e/Advanced-Decompiler-V3/main/init.lua", true)
+local decompsrc = game:HttpGet("https://raw.githubusercontent.com/portal2707070/Advanced-Decompiler-V3/patch-1/init.lua", true)
 local function loaddecomp(decomptimeout)
     local CONSTANTS = [[
 local ENABLED_REMARKS = {
